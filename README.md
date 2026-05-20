@@ -39,7 +39,7 @@ Statt monatlicher Cloud-Abos: deine Daten auf deinem Server, voll DSGVO-konform.
 - **Bookstack-Wiki** mit kompletter Setup-Dokumentation
 
 🔗 **Live-Status meiner Infrastruktur:** [status.chillyka.uk](https://status.chillyka.uk)  
-📚 **Setup-Tutorials & Lessons Learned:** [wiki.chillyka.uk](https://wiki.chillyka.uk)
+📚 **Setup-Tutorials & Lessons Learned:** [wiki.chillyka.uk](https://wiki.chillyka.uk/shelves)
 
 ## 📜 Aktuelle Lernpfade
 
