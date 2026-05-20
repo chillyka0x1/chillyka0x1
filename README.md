@@ -11,9 +11,10 @@ Statt monatlicher Cloud-Abos: deine Daten auf deinem Server, voll DSGVO-konform.
 
 ## 💼 Meine Services
 
-- **🏠 Privacy-First-Setups** — Vaultwarden (Passwörter), Pi-hole (Werbe-Blocker), WireGuard (sicheres VPN)
-- **🤖 Workflow-Automatisierung** — n8n für KMU (Lead-Routing, Bestätigungs-Mails, Daten-Sync)
-- **☁️ Self-Hosted Stacks** — Cloud-Alternativen auf eigenem Server (Immich, Bookstack, Gitea)
+
+- **🏠 [Family Privacy Pack — 299€](https://wiki.chillyka.uk/books/services/page/family-privacy)** — Vaultwarden + Pi-hole für deine Familie
+- **🤖 [n8n Workflow Automation — ab 599€](https://wiki.chillyka.uk/books/services/page/n8n-workflows)** — Business-Workflows für KMU
+- **☁️ [Self-Hosted Stack — ab 449€](https://wiki.chillyka.uk/books/services/page/self-hosted-stack)** — Cloud-Alternativen auf deinem Server
 
 📧 **borkadrian@proton.me**
 
