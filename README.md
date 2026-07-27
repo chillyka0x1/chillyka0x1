@@ -30,30 +30,44 @@
 
 **Injection**
 
-![SQL Injection](https://img.shields.io/badge/SQL_Injection-C0392B?style=flat-square)
-![NoSQL](https://img.shields.io/badge/NoSQL-C0392B?style=flat-square)
-![LDAP](https://img.shields.io/badge/LDAP-C0392B?style=flat-square)
-![ORM](https://img.shields.io/badge/ORM-C0392B?style=flat-square)
-![SSTI](https://img.shields.io/badge/SSTI-C0392B?style=flat-square)
-![XXE](https://img.shields.io/badge/XXE-C0392B?style=flat-square)
-![Command Injection](https://img.shields.io/badge/Command_Injection-C0392B?style=flat-square)
+![SQL Injection](https://img.shields.io/badge/-SQL_Injection-C0392B?style=flat&labelColor=C0392B)
+![NoSQL](https://img.shields.io/badge/-NoSQL-C0392B?style=flat&labelColor=C0392B)
+![LDAP](https://img.shields.io/badge/-LDAP-C0392B?style=flat&labelColor=C0392B)
+![ORM](https://img.shields.io/badge/-ORM-C0392B?style=flat&labelColor=C0392B)
+![SSTI](https://img.shields.io/badge/-SSTI-C0392B?style=flat&labelColor=C0392B)
+![XXE](https://img.shields.io/badge/-XXE-C0392B?style=flat&labelColor=C0392B)
+![Command Injection](https://img.shields.io/badge/-Command_Injection-C0392B?style=flat&labelColor=C0392B)
 
 **Authentication & session**
 
-![JWT](https://img.shields.io/badge/JWT-1F6FEB?style=flat-square)
-![OAuth](https://img.shields.io/badge/OAuth-1F6FEB?style=flat-square)
-![MFA Bypass](https://img.shields.io/badge/MFA_Bypass-1F6FEB?style=flat-square)
-![Session Management](https://img.shields.io/badge/Session_Management-1F6FEB?style=flat-square)
-![Auth Bypass](https://img.shields.io/badge/Auth_Bypass-1F6FEB?style=flat-square)
+![JWT](https://img.shields.io/badge/-JWT-1F6FEB?style=flat&labelColor=1F6FEB)
+![OAuth](https://img.shields.io/badge/-OAuth-1F6FEB?style=flat&labelColor=1F6FEB)
+![MFA Bypass](https://img.shields.io/badge/-MFA_Bypass-1F6FEB?style=flat&labelColor=1F6FEB)
+![Session Management](https://img.shields.io/badge/-Session_Management-1F6FEB?style=flat&labelColor=1F6FEB)
+![Auth Bypass](https://img.shields.io/badge/-Auth_Bypass-1F6FEB?style=flat&labelColor=1F6FEB)
 
 **Access control & logic**
 
-![IDOR](https://img.shields.io/badge/IDOR-8250DF?style=flat-square)
-![SSRF](https://img.shields.io/badge/SSRF-8250DF?style=flat-square)
-![XSS](https://img.shields.io/badge/XSS-8250DF?style=flat-square)
-![File Inclusion](https://img.shields.io/badge/File_Inclusion-8250DF?style=flat-square)
-![Race Conditions](https://img.shields.io/badge/Race_Conditions-8250DF?style=flat-square)
-![Mass Assignment](https://img.shields.io/badge/Mass_Assignment-8250DF?style=flat-square)
+![IDOR](https://img.shields.io/badge/-IDOR-8250DF?style=flat&labelColor=8250DF)
+![SSRF](https://img.shields.io/badge/-SSRF-8250DF?style=flat&labelColor=8250DF)
+![XSS](https://img.shields.io/badge/-XSS-8250DF?style=flat&labelColor=8250DF)
+![File Inclusion](https://img.shields.io/badge/-File_Inclusion-8250DF?style=flat&labelColor=8250DF)
+![Race Conditions](https://img.shields.io/badge/-Race_Conditions-8250DF?style=flat&labelColor=8250DF)
+![Mass Assignment](https://img.shields.io/badge/-Mass_Assignment-8250DF?style=flat&labelColor=8250DF)
+
+**Tooling**
+
+![Burp Suite](https://img.shields.io/badge/Burp-Suite-FF6633?style=flat&logo=burpsuite&logoColor=white&labelColor=2B2B2B)
+![nmap](https://img.shields.io/badge/-nmap-4682B4?style=flat&labelColor=2B2B2B)
+![sqlmap](https://img.shields.io/badge/-sqlmap-4682B4?style=flat&labelColor=2B2B2B)
+![gobuster](https://img.shields.io/badge/-gobuster-4682B4?style=flat&labelColor=2B2B2B)
+![ffuf](https://img.shields.io/badge/-ffuf-4682B4?style=flat&labelColor=2B2B2B)
+![hashcat](https://img.shields.io/badge/-hashcat-4682B4?style=flat&labelColor=2B2B2B)
+![John the Ripper](https://img.shields.io/badge/-John_the_Ripper-4682B4?style=flat&labelColor=2B2B2B)
+![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white&labelColor=2B2B2B)
+![Metasploit](https://img.shields.io/badge/-Metasploit-2596CD?style=flat&logo=metasploit&logoColor=white&labelColor=2B2B2B)
+![Kali](https://img.shields.io/badge/-Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white&labelColor=2B2B2B)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white&labelColor=2B2B2B)
 
 <br>
 
