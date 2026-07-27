@@ -62,7 +62,7 @@
 ![sqlmap](https://img.shields.io/badge/-sqlmap-4682B4?style=flat&labelColor=2B2B2B)
 ![gobuster](https://img.shields.io/badge/-gobuster-4682B4?style=flat&labelColor=2B2B2B)
 ![ffuf](https://img.shields.io/badge/-ffuf-4682B4?style=flat&labelColor=2B2B2B)
-![hashcat](https://img.shields.io/badge/-hashcat-4682B4?style=flat&labelColor=2B2B2B)
+![hashcat](https://img.shields.io/badge/-hashcat-4682B4?style=flat&logo=hashcat&logoColor=white&labelColor=2B2B2B)
 ![John the Ripper](https://img.shields.io/badge/-John_the_Ripper-4682B4?style=flat&labelColor=2B2B2B)
 ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white&labelColor=2B2B2B)
 ![Metasploit](https://img.shields.io/badge/-Metasploit-2596CD?style=flat&logo=metasploit&logoColor=white&labelColor=2B2B2B)
