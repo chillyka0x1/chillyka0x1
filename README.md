@@ -4,12 +4,15 @@
 
 ### Offensive security · Munich, Germany
 
-*I break web applications to understand how they're built —*
-*and write up every technique in my own words.*
+*I break web applications to understand how they're built — and write up every technique in my own words.*
 
 <br>
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-chillyka%20·%20Top%208%25%20·%20Silver%20·%2071%20rooms-88CC14?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/chillyka)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_8%25-88CC14?style=flat-square&logo=tryhackme&logoColor=white&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![League](https://img.shields.io/badge/League-Silver-C0C0C0?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![Rooms](https://img.shields.io/badge/Rooms-71-1F8FFF?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![eJPT](https://img.shields.io/badge/eJPT-Q4_2026-FF6B00?style=flat-square&labelColor=2B2B2B)](#roadmap)
+[![FISI](https://img.shields.io/badge/FISI-until_Q4_2027-8250DF?style=flat-square&labelColor=2B2B2B)](#roadmap)
 
 </div>
 
@@ -17,56 +20,64 @@
 
 > **If I can't explain *why* an attack lands without naming a tool, I don't consider it learned.**
 
-Working toward the **eJPT** and **OSCP** while training as an IT Systems Integration specialist (FISI, IHK). Linux since my early twenties, first server and OPNsense firewall at 26, nine years in the trades — then all-in on security in December 2025.
-
 <br>
 
 ---
 
-## 🧠 How I think about a target
+## 🎯 What I work on
 
-Every one of these is the same question in different syntax: **does the server trust a value I control?**
+<div align="center">
 
-<br>
+**Injection**
 
-| | Attack | The assumption it breaks |
-|:--|:---|:---|
-| 💉 | **SSTI** | The server *evaluates* my input instead of displaying it |
-| 💉 | **SQL / NoSQL Injection** | My input becomes part of the query instead of staying data |
-| 💉 | **LDAP Injection** | I can close the filter and inject my own condition |
-| 💉 | **ORM Injection** | The developer reached past the ORM into raw SQL |
-| 📄 | **XXE** | The parser will fetch whatever I point it at |
-| 🔑 | **JWT** | The server trusts a token it should be verifying |
-| 🔑 | **OAuth · MFA · Sessions** | The second factor and the session are enforced client-side |
-| 🚪 | **IDOR · Mass Assignment** | The reference is accepted, not authorised |
-| 🌐 | **SSRF · File Inclusion** | The server fetches on my behalf |
-| ⏱️ | **Race Conditions** | There's a gap between check and use |
+![SQL Injection](https://img.shields.io/badge/SQL_Injection-C0392B?style=flat-square)
+![NoSQL](https://img.shields.io/badge/NoSQL-C0392B?style=flat-square)
+![LDAP](https://img.shields.io/badge/LDAP-C0392B?style=flat-square)
+![ORM](https://img.shields.io/badge/ORM-C0392B?style=flat-square)
+![SSTI](https://img.shields.io/badge/SSTI-C0392B?style=flat-square)
+![XXE](https://img.shields.io/badge/XXE-C0392B?style=flat-square)
+![Command Injection](https://img.shields.io/badge/Command_Injection-C0392B?style=flat-square)
+
+**Authentication & session**
+
+![JWT](https://img.shields.io/badge/JWT-1F6FEB?style=flat-square)
+![OAuth](https://img.shields.io/badge/OAuth-1F6FEB?style=flat-square)
+![MFA Bypass](https://img.shields.io/badge/MFA_Bypass-1F6FEB?style=flat-square)
+![Session Management](https://img.shields.io/badge/Session_Management-1F6FEB?style=flat-square)
+![Auth Bypass](https://img.shields.io/badge/Auth_Bypass-1F6FEB?style=flat-square)
+
+**Access control & logic**
+
+![IDOR](https://img.shields.io/badge/IDOR-8250DF?style=flat-square)
+![SSRF](https://img.shields.io/badge/SSRF-8250DF?style=flat-square)
+![XSS](https://img.shields.io/badge/XSS-8250DF?style=flat-square)
+![File Inclusion](https://img.shields.io/badge/File_Inclusion-8250DF?style=flat-square)
+![Race Conditions](https://img.shields.io/badge/Race_Conditions-8250DF?style=flat-square)
+![Mass Assignment](https://img.shields.io/badge/Mass_Assignment-8250DF?style=flat-square)
 
 <br>
 
 **Next up** — Linux & Windows privilege escalation → Active Directory
 
+</div>
+
 <br>
 
 ---
 
-## 🛠️ Tooling
+## 🧠 The pattern underneath
 
-<div align="center">
+Every one of those is the same question in different syntax: **does the server trust a value I control?**
 
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-
-<sub>also — nmap · sqlmap · gobuster · ffuf · hashcat · John the Ripper · OPNsense</sub>
-
-</div>
+| Attack | The assumption it breaks |
+|:---|:---|
+| **SSTI** | The server *evaluates* my input instead of displaying it |
+| **SQL / NoSQL** | My input becomes part of the query instead of staying data |
+| **LDAP** | I can close the filter and inject my own condition |
+| **ORM** | The developer reached past the ORM into raw SQL |
+| **XXE** | The parser will fetch whatever I point it at |
+| **JWT** | The server trusts a token it should be verifying |
+| **IDOR** | The reference is accepted, not authorised |
 
 <br>
 
@@ -129,13 +140,13 @@ The last section is the one I'd read first.
 </details>
 
 <details>
-<summary><b>Why infrastructure matters for offence</b></summary>
+<summary><b>Background</b></summary>
 
 <br>
 
-I ran systems before I attacked them. That order helps — you reason about attack surface differently once you've had to keep something alive, patch it, and watch it fall over at 2am.
+Linux since my early twenties, first server and OPNsense firewall at 26, nine years in the trades — then all-in on security in December 2025. Currently training as an IT Systems Integration specialist (FISI, IHK).
 
-The lab is where that meets offence: segmented networks, deliberately broken services, and a scanner I wrote to check whether my own assumptions actually hold.
+I ran systems before I attacked them. That order helps: you reason about attack surface differently once you've had to keep something alive, patch it, and watch it fall over at 2am.
 
 </details>
 
@@ -152,13 +163,9 @@ The lab is where that meets offence: segmented networks, deliberately broken ser
 | **eJPT** | `Q4 2026` |
 | **HackTheBox** — OSCP preparation | `2027` |
 | **OSCP** | `2028` |
-| **FISI** — IT Systems Integration, IHK | `in training until Q4 2027` |
+| **FISI** — IT Systems Integration, IHK | `until Q4 2027` |
 
 </div>
-
-<br>
-
-Long-term: penetration testing, remote.
 
 <br>
 
