@@ -1,62 +1,68 @@
-# Hi, ich bin Adrian Bork 👋
+# Adrian Bork
 
-🛠️ **Self-Hosted Infrastructure Engineer** aus München  
-🔐 Privacy-First Enthusiast • DevOps Lerner • Cybersecurity auf dem Weg zur eJPT-Zertifizierung
+**Offensive security · Munich, Germany**
 
-## 🎯 Was ich tue
+I break web applications to understand how they're built, and I write up every technique in my own words. Working toward the **eJPT** and **OSCP** while training as an IT Systems Integration specialist (FISI, IHK).
 
-Ich baue Self-Hosted-Lösungen für Privatpersonen und kleine Unternehmen, die Wert auf **Datenschutz**, **Eigenständigkeit** und **Effizienz** legen.
+If I can't explain *why* an attack lands without naming a tool, I don't consider it learned.
 
-Statt monatlicher Cloud-Abos: deine Daten auf deinem Server, voll DSGVO-konform.
-
-## 💼 Meine Services
-
-
-- **🏠 [Family Privacy Pack — 299€](https://wiki.chillyka.uk/books/services/page/family-privacy)** — Vaultwarden + Pi-hole für deine Familie
-- **🤖 [n8n Workflow Automation — ab 599€](https://wiki.chillyka.uk/books/services/page/n8n-workflows)** — Business-Workflows für KMU
-- **☁️ [Self-Hosted Stack — ab 449€](https://wiki.chillyka.uk/books/services/page/self-hosted-stack)** — Cloud-Alternativen auf deinem Server
-
-📧 **borkadrian@proton.me**
-
-## 🛠️ Mein Stack
-
-![Proxmox](https://img.shields.io/badge/Proxmox-VE-orange?logo=proxmox)
-![Linux](https://img.shields.io/badge/Linux-Debian%20%7C%20Alpine-yellow?logo=linux)
-![Docker](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)
-![Nginx](https://img.shields.io/badge/Nginx-Reverse%20Proxy-green?logo=nginx)
-![OPNsense](https://img.shields.io/badge/OPNsense-Firewall-red)
-![Grafana](https://img.shields.io/badge/Grafana-Dashboards-orange?logo=grafana)
-![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-red?logo=prometheus)
-![n8n](https://img.shields.io/badge/n8n-Workflows-purple)
-![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-black)
-
-## 📊 Mein aktuelles Homelab
-
-- **22+ Self-Hosted Services** auf Proxmox VE (eigene Hardware)
-- **OPNsense** Firewall mit segmentierten Netzen (LAN / DMZ / Attack)
-- **NVIDIA Quadro P2000** für lokale AI-Inferenz via Ollama
-- **Custom Grafana Mission Control** mit Live-Stats aller Hosts
-- **Pentesting-Lab** für eJPT-Vorbereitung (OWASP Juice Shop, DVWA, WebGoat)
-- **Bookstack-Wiki** mit kompletter Setup-Dokumentation
-
-🔗 **Live-Status meiner Infrastruktur:** [status.chillyka.uk](https://status.chillyka.uk)  
-📚 **Setup-Tutorials & Lessons Learned:** [wiki.chillyka.uk](https://wiki.chillyka.uk/shelves)
-
-## 📜 Aktuelle Lernpfade
-
-- 🎯 **eJPT** (Junior Penetration Tester) — Q3 2026
-- 🐧 **CompTIA Linux+** — Vorbereitung läuft
-- 🔐 **TCM Practical Network Penetration Tester** — geplant
-- 🎓 **Self-Hosting Mastery** — continuous
-
-## 🌍 Verfügbarkeit
-
-📍 München, Deutschland  
-💼 Remote & Vor-Ort (München + Umgebung)  
-📅 Verfügbar ab sofort für Projekte
-
-📧 **borkadrian@proton.me** — Erstgespräch immer kostenlos
+📊 **[TryHackMe: chillyka](https://tryhackme.com/p/chillyka)** — Top 8% · Silver league · 71 rooms
 
 ---
 
-⭐ Wenn dir mein Stuff hilft, gib dem entsprechenden Repo einen Star!
+## What I work on
+
+**Injection**
+`SQL Injection` — incl. second-order, WAF bypass, out-of-band, header injection
+`NoSQL` · `LDAP` · `ORM` · `SSTI` · `XXE` · `Command Injection`
+
+**Authentication & session**
+`JWT` · `OAuth` · `MFA bypass` · `Session Management` · `Authentication Bypass`
+
+**Access control & logic**
+`IDOR` · `SSRF` · `XSS` · `File Inclusion` · `Race Conditions` · `Mass Assignment`
+
+**Recon & tooling**
+`nmap` · `Burp Suite` (Repeater/Intruder) · `gobuster` · `sqlmap` · `hashcat` · `John` · `Wireshark` · `Metasploit`
+
+**Next up:** Linux and Windows privilege escalation → Active Directory.
+
+---
+
+## Repositories
+
+| Repo | |
+|---|---|
+| **[pentest-writeups](https://github.com/chillyka0x1/pentest-writeups)** | Technique writeups — the mechanism and the mistakes, not the answers. No premium lab content reproduced. |
+| **[periscan](https://github.com/chillyka0x1/periscan)** | Exposure scanner in Python. Shows what's actually reachable from outside — built it to *verify* my segmentation instead of trusting it. |
+| **[homelab-infrastructure](https://github.com/chillyka0x1/homelab-infrastructure)** | Proxmox lab: 22+ services, OPNsense segmentation, monitoring. Where I practise on targets I'm allowed to break. |
+| **[dotfiles](https://github.com/chillyka0x1/dotfiles)** | bash, vim, tmux, git. |
+
+---
+
+## How I learn
+
+Every technique goes through the same loop: solve it, then explain it from memory, then write down what I got wrong. The last part is where it sticks.
+
+The writeups follow that structure — when it applies, why it works, how to test it, how to fix it, and the misconception I had on the way. Spaced repetition on top, because recognition isn't recall.
+
+Background: Linux since my early twenties, first server and OPNsense firewall at 26, nine years in the trades before going all-in on security in December 2025. The infrastructure side is why I think about attack surface the way I do — you defend better once you've had to keep something alive.
+
+---
+
+## Roadmap
+
+| | Target |
+|---|---|
+| **eJPT** | Q4 2026 |
+| **HackTheBox** (OSCP prep) | 2027 |
+| **OSCP** | 2028 |
+| **FISI** (IT Systems Integration, IHK) | in training until Q4 2027 |
+
+Long-term: penetration testing, remote.
+
+📫 **borkadrian@proton.me**
+
+---
+
+<sub>Learning in public. Everything here is my own work — anything borrowed is credited. All testing on authorised targets only: my own lab, TryHackMe, HackTheBox, and intentionally vulnerable applications.</sub>
