@@ -25,46 +25,71 @@ Working toward the **eJPT** and **OSCP** while training as an IT Systems Integra
 
 ## 🎯 What I work on
 
-<table>
-<tr>
-<td valign="top" width="50%">
+<div align="center">
 
 **Injection**
 
-`SQL Injection` — second-order, WAF bypass, OOB, header injection
-`NoSQL` · `LDAP` · `ORM` · `SSTI` · `XXE` · `Command Injection`
-
-</td>
-<td valign="top" width="50%">
+![SQL Injection](https://img.shields.io/badge/SQL_Injection-C0392B?style=flat-square)
+![NoSQL](https://img.shields.io/badge/NoSQL-C0392B?style=flat-square)
+![LDAP](https://img.shields.io/badge/LDAP-C0392B?style=flat-square)
+![ORM](https://img.shields.io/badge/ORM-C0392B?style=flat-square)
+![SSTI](https://img.shields.io/badge/SSTI-C0392B?style=flat-square)
+![XXE](https://img.shields.io/badge/XXE-C0392B?style=flat-square)
+![Command Injection](https://img.shields.io/badge/Command_Injection-C0392B?style=flat-square)
 
 **Authentication & session**
 
-`JWT` · `OAuth` · `MFA bypass`
-`Session Management` · `Authentication Bypass`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
+![JWT](https://img.shields.io/badge/JWT-1F6FEB?style=flat-square)
+![OAuth](https://img.shields.io/badge/OAuth-1F6FEB?style=flat-square)
+![MFA Bypass](https://img.shields.io/badge/MFA_Bypass-1F6FEB?style=flat-square)
+![Session Management](https://img.shields.io/badge/Session_Management-1F6FEB?style=flat-square)
+![Auth Bypass](https://img.shields.io/badge/Auth_Bypass-1F6FEB?style=flat-square)
 
 **Access control & logic**
 
-`IDOR` · `SSRF` · `XSS` · `File Inclusion`
-`Race Conditions` · `Mass Assignment`
+![IDOR](https://img.shields.io/badge/IDOR-8250DF?style=flat-square)
+![SSRF](https://img.shields.io/badge/SSRF-8250DF?style=flat-square)
+![XSS](https://img.shields.io/badge/XSS-8250DF?style=flat-square)
+![File Inclusion](https://img.shields.io/badge/File_Inclusion-8250DF?style=flat-square)
+![Race Conditions](https://img.shields.io/badge/Race_Conditions-8250DF?style=flat-square)
+![Mass Assignment](https://img.shields.io/badge/Mass_Assignment-8250DF?style=flat-square)
 
-</td>
-<td valign="top">
+**Tooling**
 
-**Recon & tooling**
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![nmap](https://img.shields.io/badge/nmap-4682B4?style=flat-square)
+![sqlmap](https://img.shields.io/badge/sqlmap-4682B4?style=flat-square)
+![gobuster](https://img.shields.io/badge/gobuster-4682B4?style=flat-square)
+![hashcat](https://img.shields.io/badge/hashcat-4682B4?style=flat-square)
+![John](https://img.shields.io/badge/John_the_Ripper-4682B4?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-`nmap` · `Burp Suite` · `gobuster` · `sqlmap`
-`hashcat` · `John` · `Wireshark` · `Metasploit`
+<br>
 
-</td>
-</tr>
-</table>
+**Next up** — Linux & Windows privilege escalation → Active Directory
 
-**Next up:** Linux & Windows privilege escalation → Active Directory
+</div>
+
+---
+
+## 🧠 How I think about a target
+
+The list above is what I've touched. This is what I actually carry between them:
+
+| Attack | The assumption it breaks |
+|:---|:---|
+| **SSTI** | The server *evaluates* my input instead of displaying it |
+| **LDAP Injection** | I can close the filter and inject my own condition |
+| **ORM Injection** | The developer reached past the ORM into raw SQL |
+| **NoSQL Injection** | I can turn a value into an operator |
+| **XXE** | The parser will fetch whatever I point it at |
+| **JWT** | The server trusts a token it should be verifying |
+| **IDOR** | The object reference is accepted, not authorised |
+
+They're all the same question wearing different syntax: **does the server trust a value I control?**
 
 ---
 
