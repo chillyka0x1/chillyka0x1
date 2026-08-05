@@ -8,9 +8,9 @@
 
 <br>
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_8%25-88CC14?style=flat-square&logo=tryhackme&logoColor=white&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
-[![League](https://img.shields.io/badge/League-Silver-C0C0C0?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
-[![Rooms](https://img.shields.io/badge/Rooms-71-1F8FFF?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_7%25-88CC14?style=flat-square&logo=tryhackme&logoColor=white&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![League](https://img.shields.io/badge/League-Gold-FFD700?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
+[![Rooms](https://img.shields.io/badge/Rooms-77-1F8FFF?style=flat-square&labelColor=2B2B2B)](https://tryhackme.com/p/chillyka)
 [![eJPT](https://img.shields.io/badge/eJPT-Q4_2026-FF6B00?style=flat-square&labelColor=2B2B2B)](#roadmap)
 [![FISI](https://img.shields.io/badge/FISI-until_Q4_2027-8250DF?style=flat-square&labelColor=2B2B2B)](#roadmap)
 
